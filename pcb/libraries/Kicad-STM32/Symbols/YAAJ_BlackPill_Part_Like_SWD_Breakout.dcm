@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP YAAJ_BlackPill_Part_Like_SWD_Breakout
+D STM32 Black Pill part like ; broken out SWD pins ; not KLC compliant
+K module black pill STM32 SWD
+$ENDCMP
+#
+#End Doc Library

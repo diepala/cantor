@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_3X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP DIODE_SCHOTTKY_SOT23
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP HT7750A
+D HOLTEK setup DC/DC converter
+K HT7750A, stepup, dc-dc, SOT-23
+F datasheets/HT7750A.pdf
+$ENDCMP
+#
+$CMP LDO_REGULATOR
+D HOLTEK setup DC/DC converter
+K HT7750A, stepup, dc-dc, SOT-23
+$ENDCMP
+#
+$CMP LTC4054
+D LTC4054 LINEAR TECHNOLOGY Lipo battery charger
+K LTC4054, Lipo, battery, charger, SOT-23
+F datasheets/LTC405442xf.pdf
+$ENDCMP
+#
+$CMP RN42
+D class 2 bluetooth module
+K RN42, Roving Networks, Microchip
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP YAAJ_BlackPill_SWD_Breakout
+D STM32 Blue Pill ; KLC compliant ; SWD port broken out
+K module black pill STM32 SWD
+$ENDCMP
+#
+#End Doc Library

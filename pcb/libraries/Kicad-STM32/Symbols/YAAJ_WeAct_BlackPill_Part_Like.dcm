@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP YAAJ_WeAct_BlackPill_Part_Like
+D WeAct STM32F401/F411 Black Pill ; not KLC compliant
+K module black pill STM32
+$ENDCMP
+#
+#End Doc Library

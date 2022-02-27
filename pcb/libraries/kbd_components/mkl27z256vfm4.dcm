@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MKL27Z256VFM4
+D NXP/Freescale Kinetis MKL27Z256VFM4
+K NXP, Freescale, Kinetis, KL27Z
+F http://cache.nxp.com/files/32bit/doc/ref_manual/KL27P64M48SF6RM.pdf
+$ENDCMP
+#
+#End Doc Library
