@@ -78,4 +78,4 @@ Also, you can open an issue reporting any problem or feature request.
 The development of a keyboard takes time and money. If you like this keyboard a want to support me for the work and to develop future revisions of the keyboard, consider donating:
 
 PayPal: [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?hosted_button_id=ZKKE68MCBQ9P6)
-GitHub: [Here](https://github.com/sponsors/diepala/button)
+GitHub: [Here](https://github.com/sponsors/diepala)
