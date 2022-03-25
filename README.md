@@ -5,6 +5,12 @@ The Cantor keyboard is a 42 key diodeless split keyboard, designed with simplici
 
 The keyboard uses choc switches with choc spacing. Therefore, only MBK keycaps can be used.
 
+### Why diodeless?
+
+A diodeless design reduces the keyboard assembly time, as the amount of components to solder is significantly reduced.
+Moreover, soldering diodes can cause trouble during the keyboard build. Diodes need to be placed in the correct direction, if not, the keys won't work well!
+Eliminating diodes will prevent many errors during the assembly process.
+
 ## Disclaimers
 
 All the designs and files are provided "AS IS" without any warranty or support.
