@@ -6,7 +6,7 @@
 
 Optionally, flash the firmware onto the microcontroller to ensure it is not defective.
 
-2. Solder the blackpill sockets and TRRS jacks on both PCBs, as shown. Sockets must be placed on top of the white PCB markings. Also, make sure you solder the components on different sides of the PCBs, so you end up with a right and left side and not two sides of the same hand.
+2. Solder the blackpill sockets and TRRS jacks on both PCBs, as shown. Sockets must be placed on top of the white PCB markings. ALthough using sockets is not strictly necessary, it will make it easier to replace the blackpills in case they die for any reason. Also, make sure you solder the components on different sides of the PCBs, so you end up with a right and left side and not two sides of the same hand.
 
    ![sockets and jack](assets/sockets_and_trrs.jpg)
 
