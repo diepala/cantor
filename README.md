@@ -51,6 +51,8 @@ To build the keyboard, you will need the following materials:
 
 Download the gerber file from realeses, and submit it to your favorite PCB manufacturer. The keyboard designs have been tested with JLCPCB.
 
+Note: if you don't want a random tracking number to be printed in the PCB, make sure to select the option 'Remove Order Number' in JLCPCB.
+
 ### How to Build
 
 To build the keyboard, you'll also need a soldering iron and some tin. Follow the [build guide](doc/build_guide.md).
