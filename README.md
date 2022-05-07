@@ -33,6 +33,11 @@ The PCB is reversible to reduce manufacturing costs.
 
 Would you like to build this keyboard? Then continue reading!
 
+You can also buy a kits to build the Cantor keyboard from one of the **honorable sponsors**:
+
+<a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
+<br><br><br><br>
+  
 ### Bill of Materials
 
 To build the keyboard, you will need the following materials:
@@ -81,3 +86,10 @@ The development of a keyboard takes time and money. If you like this keyboard a 
 
 PayPal: [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?hosted_button_id=ZKKE68MCBQ9P6)
 GitHub: [Here](https://github.com/sponsors/diepala)
+
+### Honorable sponsors
+
+
+Thank you very much to everyone contributing and/or sonponsoring this project. Special thanks to the honorable sponsors:
+
+<a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
