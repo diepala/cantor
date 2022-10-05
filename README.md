@@ -36,6 +36,7 @@ Would you like to build this keyboard? Then continue reading!
 You can also buy a kits to build the Cantor keyboard from one of the **honorable sponsors**:
 
 <a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
+<a href="https://42keebs.eu" target="_blank"><img src="https://user-images.githubusercontent.com/25749629/194108923-33d79eb9-c6da-495b-a60e-fd3f4cd073f4.png" align="left" width="200" ></a>
 <br><br><br><br>
   
 ### Bill of Materials
@@ -93,3 +94,4 @@ GitHub: [Here](https://github.com/sponsors/diepala)
 Thank you very much to everyone contributing and/or sonponsoring this project. Special thanks to the honorable sponsors:
 
 <a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
+<a href="https://42keebs.eu" target="_blank"><img src="https://user-images.githubusercontent.com/25749629/194108923-33d79eb9-c6da-495b-a60e-fd3f4cd073f4.png" align="left" width="200" ></a>
