@@ -329,7 +329,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "ergodonk_kicad_library",
+      "kbd"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
