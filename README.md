@@ -1,4 +1,4 @@
-#Cantor Choc V2
+# Cantor Choc V2
 This is a Cantor variant adjusted for chocV2 switches, which use MX keycaps. Choc V2's are slighlty larger than Choc V1, so the layout has been adjusted accordingly. None of the routing has changed, so any V1 firmware will work on V2. This design has not been produced/validated yet. Proceed at your own risk.
 Todo:
 * Validate the double-sided footprint is correct.
@@ -7,6 +7,8 @@ Todo:
 * What's the deal with the licensing?
 * Should this be updated for the pi2040 (Currently uses blackpill).
 * Can the footprint be modified to accomidate Cherry low-profile?
+![Cantor ChocV2 Keyboard](assets/CantorChocV2.png)
+![ChocV2 Datasheet](assets/chocV2Datasheet.jpeg)
 
 # Cantor Keyboard
 The Cantor keyboard is a 42 key diodeless split keyboard, designed with simplicity in mind. It is inspired on the popular [corne](https://github.com/foostan/crkbd), [ferris](https://github.com/pierrechevalier83/ferris) and [sweep](https://github.com/davidphilipbarr/Sweep) keyboards, aiming to provide a more ergonomic (stronger column stagger) corne-like layout with a simple, easy to assemble and cheap design.
