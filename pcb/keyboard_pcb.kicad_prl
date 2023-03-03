@@ -16,14 +16,14 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -63,8 +63,8 @@
       35,
       36
     ],
-    "visible_layers": "803ffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "803ffff_7fffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "keyboard_pcb.kicad_prl",
