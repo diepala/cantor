@@ -1,9 +1,12 @@
-# Cantor Choc V2
-This is a Cantor variant adjusted to use these switches:
-* MX (3 pin or 5 pin)
+# Cantor MX
+This is a Cantor variant adjusted to support MX switches:
+* Cherry MX full size (5 pin)
 * Kailh Choc (V1 or V2)
 
-Choc V2/MX keycaps are slightly larger than Choc V1, so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board. This design has not been produced/validated yet. Proceed at your own risk.
+Choc V2/MX keycaps are slightly larger than Choc V1, so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board.
+* V1.1 (pcb/gerbers/Cantor_MXv1.1.zip) has been produced with JLCPCB and confirmed to work. When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys.
+* V1.2 Is a work in progress and has not been validated. Along with Cherry MX, Kailh Choc V1 & V2, this version also supports TTC Low profile (KS32), Cherry MX Low profile, and Gateron Low Profile (KS-27).
+Improved pin hole dimensions for 3 pin cherry MX stability. Moved TRRS jack to allow for larger thumb cluster keycaps.
 
 Todo:
 * Update branding/versioning. (Try out fonts with KiCad v7).
