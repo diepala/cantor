@@ -1,18 +1,34 @@
-# Cantor MX
-This is a Cantor variant adjusted to support MX switches:
-* Cherry MX full size (5 pin)
-* Kailh Choc (V1 or V2)
+# Cantor Master Key (Formerly 'Cantor MX')
+This is a Cantor variant adjusted to support multiple switches, add hot swop kailh V1 & V2 sockets, and add a speaker.
 
-Choc V2/MX keycaps are slightly larger than Choc V1, so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board.
-* V1.1 (pcb/gerbers/Cantor_MXv1.1.zip) has been produced with JLCPCB and confirmed to work. When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys.
-* V1.2 Is a work in progress and has not been validated. Along with Cherry MX, Kailh Choc V1 & V2, this version also supports TTC Low profile (KS32), Cherry MX Low profile, and Gateron Low Profile (KS-27).
+This version 1.3 **(UNTESTED)** currently supports:
+* Cherry MX full size 5 pin only. (Aka "[PCB mount](https://deskthority.net/wiki/Switch_mount)")
+* [Cherry MX Low profile](https://www.cherrymx.de/en/cherry-mx/mx-low-profile/mx-low-profile-red.html) (Aka "MXLP") 
+* [Gateron Low Profile](https://www.gateron.co/products/gateron-low-profile-mechanical-switch-set) (KS-27)
+* [Kailh Choc V1](http://www.kailh.com/en/Products/Ks/CS/321.html) (PG1350) - Can use hotswap sockets or be soldered in.
+* [Kailh Choc V2](http://www.kailh.com/en/Products/Ks/CS/757.html) (PG1353) - Can use hotswap sockets or be soldered in.
+* [TTC KS32](https://deskthority.net/wiki/TTC_KS32_series) (Cherry MX Low Profile Clones)
+* RedDragon MX Low profile (No data sheet available - these probably don't work?) 
+
+This version _does not_ support
+* Cherry MX full size 3 pin, aka "[Plate mount](https://deskthority.net/wiki/Switch_mount)". (Only 2 good points of contact, so it's too wiggly. Would need a plate).
+* [Kailh Notebook "X" Scissor](http://www.kailh.com/en/Products/Ks/NotebookS/649.html) (CPG142501D02) The corner mounting holes conflict with Kailh V2 corner pin. That pin is not electrically relevent, but helps with orientation. Maybe add this in the future?
+* Cherry MX [Ultra low profile](https://www.cherrymx.de/en/cherry-mx/mx-ultra-low-profile/mx-ulp-click.html) (Too hard to find).
+
+All of these except the Choc V1s will use MX keycaps. MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board.
+
+* V1.1 (pcb/gerbers/Cantor_MXv1.1.zip) has been produced with JLCPCB and confirmed to work. This only supports choc v1, choc v2, and MX full size switches. When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys, or need to create a plate.
+* V1.3 Is a work in progress and has not been validated. This version has additonal key support. I threw in a piezo speaker too because, why not?
 Improved pin hole dimensions for 3 pin cherry MX stability. Moved TRRS jack to allow for larger thumb cluster keycaps.
 
 Todo:
-* Update branding/versioning. (Try out fonts with KiCad v7).
-* What's the deal with the licensing?
-* Should this be updated for the pi2040 (Currently uses blackpill 401).
+* Updated the licensing?
+* Update schematic for TX/RX TRRS Crossover.
+* ~~Should this be updated for the pi2040 (Currently uses blackpill 401).~~ There is already a "Piantor". If this footprint works, make a mash up. 
 
+V1.3
+![Cantor ChocV2 Keyboard v1.3](assets/CantorChocV2_V1.3.png)
+V1.1
 ![Cantor ChocV2 Keyboard](assets/CantorChocV2.png)
 ![ChocV2 Datasheet](assets/chocV2Datasheet.jpeg)
 
