@@ -25,6 +25,8 @@ Todo:
 * Updated the licensing?
 * Update schematic for TX/RX TRRS Crossover.
 * ~~Should this be updated for the pi2040 (Currently uses blackpill 401).~~ There is already a "Piantor". If this footprint works, make a mash up. 
+* On test print 1.3, red was extra, so i went with blue. Try Elecrow next time?
+* On test print 1.3, 4-6-23, jlcpcb charged an extra $7.50USD for having an abundance of slots. Try elecrow, or reduce slots. Maybe make the blackpill flippable to reduce by 40 apertures? (Pulling red dragon only reduces by 21 slots, since it shares a ground).
 
 V1.3
 ![Cantor ChocV2 Keyboard v1.3](assets/CantorChocV2_V1.3.png)
