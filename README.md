@@ -4,7 +4,8 @@ This is a Cantor variant adjusted to support multiple switches, add hot swop kai
 Version 1.4 **(UNTESTED)** adds:
 * breakoff pinky clusters
 * Keys 4, 14 & 25 fixed ground zone islands
-* todo: Poke-yoke ground zone errors by connecting all gnd pads in footrpint
+* Updated switch footprint to prevent ground islands.
+* ~~todo: Poke-yoke ground zone errors by connecting all gnd pads in footrpint~~
 
 Version 1.3 **(UNTESTED)** (PCB ordered) currently supports:
 * **NOTE TO SELF: In v1.3 Keys 4, 14 & 25 have ground zone islands - these switches will probably not work!!**
