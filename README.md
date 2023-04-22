@@ -1,7 +1,13 @@
 # Cantor Master Key (Formerly 'Cantor MX')
 This is a Cantor variant adjusted to support multiple switches, add hot swop kailh V1 & V2 sockets, and add a speaker.
 
-This version 1.3 **(UNTESTED)** currently supports:
+Version 1.4 **(UNTESTED)** adds:
+* breakoff pinky clusters
+* Keys 4, 14 & 25 fixed ground zone islands
+* todo: Poke-yoke ground zone errors by connecting all gnd pads in footrpint
+
+Version 1.3 **(UNTESTED)** (PCB ordered) currently supports:
+* **NOTE TO SELF: In v1.3 Keys 4, 14 & 25 have ground zone islands - these switches will probably not work!!**
 * Cherry MX full size 5 pin only. (Aka "[PCB mount](https://deskthority.net/wiki/Switch_mount)")
 * [Cherry MX Low profile](https://www.cherrymx.de/en/cherry-mx/mx-low-profile/mx-low-profile-red.html) (Aka "MXLP") 
 * [Gateron Low Profile](https://www.gateron.co/products/gateron-low-profile-mechanical-switch-set) (KS-27)
