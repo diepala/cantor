@@ -5,9 +5,12 @@ Version 1.4 **(UNTESTED)** adds:
 * breakoff pinky clusters
 * Keys 4, 14 & 25 fixed ground zone islands
 * Updated switch footprint to prevent ground islands.
+* Fixed Choc slot off center by .1 to fix slight skew. (Updated wrapping solder mask.)
+* Combined cherry mx and red dragon hole to reduce drilling. 
+* Fixed broken speaker footprint.
 * ~~todo: Poke-yoke ground zone errors by connecting all gnd pads in footrpint~~
 
-Version 1.3 **(UNTESTED)** (PCB ordered) currently supports:
+Version 1.3 **(TESTED - Buggy)** (PCB ~~ordered~~ received) currently supports:
 * **NOTE TO SELF: In v1.3 Keys 4, 14 & 25 have ground zone islands - these switches will probably not work!!**
 * Cherry MX full size 5 pin only. (Aka "[PCB mount](https://deskthority.net/wiki/Switch_mount)")
 * [Cherry MX Low profile](https://www.cherrymx.de/en/cherry-mx/mx-low-profile/mx-low-profile-red.html) (Aka "MXLP") 
