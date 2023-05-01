@@ -1,7 +1,20 @@
-# Cantor Master Key (Formerly 'Cantor MX')
-This is a Cantor variant adjusted to support multiple switches, add hot swop kailh V1 & V2 sockets, and add a speaker.
+# Cantor MX
 
-Version 1.4 **(UNTESTED)** adds:
+This is a Cantor variant adjusted to support Cherry MX 3 & 5 pin, Kailh Choc V1 & Kailh CHoc v2 (MX). It uses MX spacing, which makes it unique from other Cantors. Earlier versions of this repo used a complex 9-key footprint. That increased costs and was 'fiddly' - so i broke it out into a seperate repo: [Cantor Master Key](https://github.com/JellyTitan/Cantor-Master-Key)
+
+
+MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board. A piezzo buzzer has been added, but that doesn't need to be enabled to work.
+
+## Version 1.5 **(UNTESTED)** 
+* Moved the "master key" variant to a separate repo.
+* Swapped in the kbd footprint
+* Made the kbd footprint double sided and embedded traces.
+* updated wiring
+* updated docs.
+* breakoff pinky clusters
+* Fixed broken speaker footprint.
+
+## Version 1.4 **(UNTESTED - spun off into "master key" repo)** adds:
 * breakoff pinky clusters
 * Keys 4, 14 & 25 fixed ground zone islands
 * Updated switch footprint to prevent ground islands.
@@ -10,7 +23,7 @@ Version 1.4 **(UNTESTED)** adds:
 * Fixed broken speaker footprint.
 * ~~todo: Poke-yoke ground zone errors by connecting all gnd pads in footrpint~~
 
-Version 1.3 **(TESTED - Buggy)** (PCB ~~ordered~~ received) currently supports:
+## Version 1.3 **(TESTED - Buggy)** (PCB ~~ordered~~ received) currently supports:
 * **NOTE TO SELF: In v1.3 Keys 4, 14 & 25 have ground zone islands - these switches will probably not work!!**
 * Cherry MX full size 5 pin only. (Aka "[PCB mount](https://deskthority.net/wiki/Switch_mount)")
 * [Cherry MX Low profile](https://www.cherrymx.de/en/cherry-mx/mx-low-profile/mx-low-profile-red.html) (Aka "MXLP") 
@@ -20,12 +33,6 @@ Version 1.3 **(TESTED - Buggy)** (PCB ~~ordered~~ received) currently supports:
 * [TTC KS32](https://deskthority.net/wiki/TTC_KS32_series) (Cherry MX Low Profile Clones)
 * RedDragon MX Low profile (No data sheet available - these probably don't work?) 
 
-This version _does not_ support
-* Cherry MX full size 3 pin, aka "[Plate mount](https://deskthority.net/wiki/Switch_mount)". (Only 2 good points of contact, so it's too wiggly. Would need a plate).
-* [Kailh Notebook "X" Scissor](http://www.kailh.com/en/Products/Ks/NotebookS/649.html) (CPG142501D02) The corner mounting holes conflict with Kailh V2 corner pin. That pin is not electrically relevent, but helps with orientation. Maybe add this in the future?
-* Cherry MX [Ultra low profile](https://www.cherrymx.de/en/cherry-mx/mx-ultra-low-profile/mx-ulp-click.html) (Too hard to find).
-
-All of these except the Choc V1s will use MX keycaps. MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board.
 
 * V1.1 (pcb/gerbers/Cantor_MXv1.1.zip) has been produced with JLCPCB and confirmed to work. This only supports choc v1, choc v2, and MX full size switches. When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys, or need to create a plate.
 * V1.3 Is a work in progress and has not been validated. This version has additonal key support. I threw in a piezo speaker too because, why not?
@@ -38,6 +45,8 @@ Todo:
 * On test print 1.3, red was extra, so i went with blue. Try Elecrow next time?
 * On test print 1.3, 4-6-23, jlcpcb charged an extra $7.50USD for having an abundance of slots. Try elecrow, or reduce slots. Maybe make the blackpill flippable to reduce by 40 apertures? (Pulling red dragon only reduces by 21 slots, since it shares a ground).
 
+V1.5
+![Cantor MX Keyboard v1.5](assets/cantor_mx_v1.5.png)
 V1.4
 ![Cantor ChocV2 Keyboard v1.4](assets/CantorChocV2_V1.4.png)
 V1.3
