@@ -9,92 +9,6 @@
   )
 
   (lib_symbols
-    (symbol "AST1109MLTRQ:AST1109MLTRQ" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "LS" (at 7.62 7.62 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "AST1109MLTRQ" (at 7.62 5.08 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "AST1109MLTRQ_MAL" (at 7.62 3.556 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "AST1109MLTRQ_MAL AST1109MLTRQ_MAL-M AST1109MLTRQ_MAL-L" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AST1109MLTRQ_1_1"
-        (polyline
-          (pts
-            (xy 7.62 -5.08)
-            (xy 12.7 -5.08)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 2.54)
-            (xy 7.62 -5.08)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 -5.08)
-            (xy 12.7 2.54)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 2.54)
-            (xy 7.62 2.54)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 2.54)
-            (xy 15.24 3.81)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 15.24 -6.35)
-            (xy 12.7 -5.08)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 15.24 3.81)
-            (xy 15.24 -6.35)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at 0 0 0) (length 7.62)
-          (name "1" (effects (font (size 1.4986 1.4986))))
-          (number "1" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin unspecified line (at 0 -2.54 0) (length 7.62)
-          (name "2" (effects (font (size 1.4986 1.4986))))
-          (number "2" (effects (font (size 1.4986 1.4986))))
-        )
-      )
-    )
     (symbol "YAAJ_WeAct_BlackPill_Part_Like:YAAJ_WeAct_BlackPill_Part_Like" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -12.7 27.94 0)
         (effects (font (size 1.27 1.27)))
@@ -952,6 +866,7 @@
   (no_connect (at 91.44 72.39) (uuid 3be74b2d-74ef-4f2d-a9ba-a27f497ba4e6))
   (no_connect (at 91.44 34.29) (uuid 7137a57b-c911-48ff-9982-6a8c8f32e100))
   (no_connect (at 50.8 77.47) (uuid 7137a57b-c911-48ff-9982-6a8c8f32e101))
+  (no_connect (at 50.8 34.29) (uuid 8b10bf34-f54e-41a2-94d4-8c8a4e30bcb7))
 
   (wire (pts (xy 149.86 60.96) (xy 154.94 60.96))
     (stroke (width 0) (type default))
@@ -1068,10 +983,6 @@
   (wire (pts (xy 91.44 36.83) (xy 93.98 36.83))
     (stroke (width 0) (type default))
     (uuid 48103270-9e4f-4ddb-a541-f2504aa191f8)
-  )
-  (wire (pts (xy 93.98 121.92) (xy 93.98 120.65))
-    (stroke (width 0) (type default))
-    (uuid 4e664e15-a6d2-4527-a019-707d66a11161)
   )
   (wire (pts (xy 200.66 76.2) (xy 205.74 76.2))
     (stroke (width 0) (type default))
@@ -1274,20 +1185,10 @@
     (uuid f88aa278-cc78-44a3-9cdc-fb1cd8ec4acb)
   )
 
-  (rectangle (start 80.01 111.76) (end 132.08 130.81)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid a1f80698-5a65-4a14-b152-c82633d20267)
-  )
-
   (text "https://docs.qmk.fm/#/feature_audio?id=pwm-software"
     (at 105.41 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 484cb4f3-1b29-420b-8300-3d7fd72f6f73)
-  )
-  (text "Speaker" (at 80.01 110.49 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 91e4cd8e-dd8a-4578-b391-34e1fcd8c8a0)
   )
 
   (label "k20" (at 97.79 62.23 0) (fields_autoplaced)
@@ -1475,21 +1376,6 @@
     (uuid fe87c0dc-492c-43e6-adda-32b9ac57637a)
   )
 
-  (global_label "AUDIO" (shape input) (at 50.8 34.29 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a29c57d9-eac8-44ef-90ff-b263983b9225)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 42.2698 34.29 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "AUDIO" (shape input) (at 93.98 118.11 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid dd3696e2-b3f7-4d9e-9117-c53c568535c0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 85.4498 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
   (symbol (lib_id "keyboard_parts:KEYSW") (at 264.16 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02613d1f-4b51-48bd-9064-cde772460dd5)
@@ -1511,36 +1397,6 @@
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "K32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 93.98 121.92 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0cc3b0fc-2235-4ca5-976c-571e48d4c1fe)
-    (property "Reference" "#PWR01" (at 93.98 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 93.98 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 93.98 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f1180abe-1cc6-47f4-9e12-5deda39c5928))
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "ergodonk_pcb"
-        (path "/ed1aaf15-4e1f-4159-b371-d99b3fb972ad"
-          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2012,37 +1868,6 @@
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR0119") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AST1109MLTRQ:AST1109MLTRQ") (at 93.98 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 724ecc59-52d5-40d1-8bee-7914c89db8c1)
-    (property "Reference" "LS1" (at 110.49 118.11 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "AST1109MLTRQ_MAL" (at 110.49 121.92 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Footprint" "Cantor_MasterKey:AST1109MLTRQ" (at 101.6 114.554 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 118.11 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid 563828e6-c5b1-4895-8834-6406c1cff3f2))
-    (pin "2" (uuid f5592585-d40d-4b2f-8300-1bf808a72d92))
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "LS1") (unit 1)
-        )
-      )
-      (project "ergodonk_pcb"
-        (path "/ed1aaf15-4e1f-4159-b371-d99b3fb972ad"
-          (reference "LS1") (unit 1)
         )
       )
     )
