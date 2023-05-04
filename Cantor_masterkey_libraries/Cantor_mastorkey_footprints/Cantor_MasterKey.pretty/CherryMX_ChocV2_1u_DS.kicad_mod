@@ -1,7 +1,6 @@
 (footprint "CherryMX_ChocV2_1u_DS" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Cherry MX, Choc V1, & Choc v2 footprint. (Pin 3 on choc v2 is not electricaly relevent)")
-  (attr through_hole)
   (fp_text reference "SW*" (at 5.1 7.95 180) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 71aa2a20-79fc-48bb-8114-8cba36209b23)
@@ -66,7 +65,7 @@
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_arc (start 0.570001 0.74) (mid 3.762184 -1.166118) (end 7.002482 0.657009) (width 0.4))
-      (gr_arc (start 0.24611 2.084536) (mid 0.44854 1.283786) (end 0.835451 0.554074) (width 0.4))
+      (gr_arc (start 0.24611 2.084536) (mid 0.448541 1.283786) (end 0.835452 0.554075) (width 0.4))
       (gr_circle (center 0.06611 1.324536) (end 0.199527 1.324536) (width 0.4) (fill none))
       (gr_arc (start -0.552896 0.852499) (mid 0.07 1.88) (end 0.107327 3.080984) (width 0.4))
       (gr_arc (start 6.915714 -0.706674) (mid 6.403123 -0.425033) (end 5.835638 -0.566567) (width 0.4))
