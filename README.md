@@ -5,7 +5,8 @@ This is a Cantor variant adjusted to support Cherry MX 3 & 5 pin, Kailh Choc V1 
 
 MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board. A piezzo buzzer has been added, but that doesn't need to be enabled to work.
 
-## Version 1.5 **(UNTESTED)** 
+## Version 1.5 **(UNTESTED Prototype ordered May 4th, 2023 )** 
+* Note: JLCPCB did not charge extra for breakoff pinky cluster. I think it's more important to keep the pricepoint low than it is to accommodate more exotic switches.
 * Moved the "master key" variant to a separate repo.
 * Swapped in the kbd footprint
 * Made the kbd footprint double sided and embedded traces.
