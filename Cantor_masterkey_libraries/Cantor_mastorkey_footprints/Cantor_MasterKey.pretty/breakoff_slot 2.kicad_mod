@@ -1,0 +1,12 @@
+(footprint "breakoff_slot" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5a32c5b9-4959-4a0e-812b-c26950bebdc1)
+  )
+  (fp_text value "breakoff_slot" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bbd539c0-0f32-4d18-b380-0a2962681a93)
+  )
+  (pad "" np_thru_hole oval (at 0 0) (size 1 15.8) (drill oval 1 15.8) (layers "F&B.Cu" "*.Mask") (tstamp 6da7c67a-99d3-4f95-be1b-d774c8d08de9))
+)
