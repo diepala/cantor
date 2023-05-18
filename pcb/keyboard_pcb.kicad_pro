@@ -395,7 +395,8 @@
     "pinned_footprint_libs": [
       "ergodonk_kicad_library",
       "kbd",
-      "Cantor_MasterKey"
+      "Cantor_MasterKey",
+      "Cantor_MX"
     ],
     "pinned_symbol_libs": []
   },

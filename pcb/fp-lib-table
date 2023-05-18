@@ -4,5 +4,5 @@
   (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/Kicad-STM32/Footprints")(options "")(descr ""))
   (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/libraries/keyswitches.pretty")(options "")(descr ""))
   (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/Keebio-Parts.pretty")(options "")(descr ""))
-  (lib (name "Cantor_MasterKey")(type "KiCad")(uri "/Users/ryanrayneff/Documents/cantor-choc-V2/Cantor_masterkey_libraries/Cantor_mastorkey_footprints/Cantor_MasterKey.pretty")(options "")(descr ""))
+  (lib (name "Cantor_MX")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cantor_MX/Cantor_MX.pretty")(options "")(descr ""))
 )
