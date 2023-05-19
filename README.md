@@ -10,6 +10,8 @@ Minor QOL improvements added:
 * Tenting puck footprint
 * Breakoff pinky column
 * Solder masks have been "poka-yoke" to reduce solder errors.
+* Teardrops added to traces
+
 ## Version 1.51 **(UNTESTED)** 
 * Added tenting puck footprint
 * Fixed TRRS Silkscreens
