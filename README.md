@@ -1,104 +1,15 @@
-# Cantor MX
-
-This is a Cantor variant adjusted to support Cherry MX 3 & 5 pin, Kailh Choc V1 & Kailh CHoc v2 (MX). It uses MX spacing, which makes it unique from other Cantors. Earlier versions of this repo used a complex 9-key footprint. That increased costs and was 'fiddly' - so i broke it out into a seperate repo: [Cantor Master Key](https://github.com/JellyTitan/Cantor-Master-Key)
-
-MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board. 
-
-When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys, or need to create a plate
-
-Minor QOL improvements added:
-* Tenting puck footprint
-* Breakoff pinky column
-* Solder masks have been "poka-yoke" to reduce solder errors.
-* Teardrops added to traces
-
-## Version 1.51 **(UNTESTED)** 
-* Added tenting puck footprint
-* Fixed TRRS Silkscreens
-* Increased subtitle font size on front of RH.
-## Version 1.5 **(~~UNTESTED~~ Tested successfully May 18th 2023.)** 
-* Prototype ordered May 4th, 2023 
-* Note: JLCPCB did not charge extra for breakoff pinky cluster. I think it's more important to keep the pricepoint low than it is to accommodate more exotic switches.
-* Moved the "master key" variant to a separate repo.
-* Swapped in the kbd footprint
-* Made the kbd footprint double sided and embedded traces.
-* updated wiring
-* updated docs.
-* breakoff pinky clusters
-* Fixed broken speaker footprint.
-
-## Version 1.4 **(UNTESTED - spun off into "master key" repo)** adds:
-* breakoff pinky clusters
-* Keys 4, 14 & 25 fixed ground zone islands
-* Updated switch footprint to prevent ground islands.
-* Fixed Choc slot off center by .1 to fix slight skew. (Updated wrapping solder mask.)
-* Combined cherry mx and red dragon hole to reduce drilling. 
-* Fixed broken speaker footprint.
-* ~~todo: Poke-yoke ground zone errors by connecting all gnd pads in footrpint~~
-
-## Version 1.3 **(TESTED - Buggy)** (PCB ~~ordered~~ received) currently supports:
-* **NOTE TO SELF: In v1.3 Keys 4, 14 & 25 have ground zone islands - these switches will probably not work!!**
-* Cherry MX full size 5 pin only. (Aka "[PCB mount](https://deskthority.net/wiki/Switch_mount)")
-* [Cherry MX Low profile](https://www.cherrymx.de/en/cherry-mx/mx-low-profile/mx-low-profile-red.html) (Aka "MXLP") 
-* [Gateron Low Profile](https://www.gateron.co/products/gateron-low-profile-mechanical-switch-set) (KS-27)
-* [Kailh Choc V1](http://www.kailh.com/en/Products/Ks/CS/321.html) (PG1350) - Can use hotswap sockets or be soldered in.
-* [Kailh Choc V2](http://www.kailh.com/en/Products/Ks/CS/757.html) (PG1353) - Can use hotswap sockets or be soldered in.
-* [TTC KS32](https://deskthority.net/wiki/TTC_KS32_series) (Cherry MX Low Profile Clones)
-* RedDragon MX Low profile (No data sheet available - these probably don't work?) 
-
-
-* V1.1 (pcb/gerbers/Cantor_MXv1.1.zip) has been produced with JLCPCB and confirmed to work. This only supports choc v1, choc v2, and MX full size switches. When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys, or need to create a plate.
-* V1.3 Is a work in progress and has not been validated. This version has additonal key support. I threw in a piezo speaker too because, why not?
-Improved pin hole dimensions for 3 pin cherry MX stability. Moved TRRS jack to allow for larger thumb cluster keycaps.
-
-Todo:
-* Updated the licensing?
-* ~~Update schematic for TX/RX TRRS Crossover.~~
-* ~~Should this be updated for the pi2040 (Currently uses blackpill 401).~~ There is already a "Piantor". If this footprint works, make a mash up. 
-* On test print 1.3, red was extra, so i went with blue. Try Elecrow next time?
-* On test print 1.3, 4-6-23, jlcpcb charged an extra $7.50USD for having an abundance of slots. Try elecrow, or reduce slots. Maybe make the blackpill flippable to reduce by 40 apertures? (Pulling red dragon only reduces by 21 slots, since it shares a ground).
-
-V1.5
-![Cantor MX Keyboard v1.5](assets/cantor_mx_v1.5.png)
-V1.4
-![Cantor ChocV2 Keyboard v1.4](assets/CantorChocV2_V1.4.png)
-V1.3
-![Cantor ChocV2 Keyboard v1.3](assets/CantorChocV2_V1.3.png)
-V1.1
-![Cantor ChocV2 Keyboard](assets/CantorChocV2.png)
-![ChocV2 Datasheet](assets/chocV2Datasheet.jpeg)
-
-## How to order this board from a PCB vendor.
-
-Helpful info if it's your first time ordering a PCB.
-
-Most PCB vendors have a similar ordering process. I use [JLCPCB](https://jlcpcb.com/) because they are usually the most cost effective. I've had good luck with [Elecrow](https://www.elecrow.com/) too. [You can find PCB price comparison tools online.](https://pcbshopper.com/) When comparing pricing, the board dimensions are 99 x 143mm. (Usually anything under 100x100mm is really cheap - so be sure to use those dimensions when pricing).
-
-The production files are known as "gerbers", and they are usually uploaded as a `.zip` file. (It's essentially a collection of files for each layer of the board, like holes, graphics, traces etc.) In this repo, the file is at `cantor-choc-V2/pcb/Gerbers_ChocV2/Cantor_Choc_V2.zip`. (File & path name may change during development)
-
-@todo - revise path before pull request.
-
-The homepage of JLCPCB has a drag & drop upload. Drag the gerber `.zip` and drop it on the "add gerber file" box.
-![JLCPCB Home](assets/JLCPCB_Ordering_1.png)
-
-While the file is uploading, it will take you to an options screen. Once the board size is detected<sup>1</sup>, the price<sup>3</sup> will update accordingly.
-Changing the pcb color<sup>2</sup> may impact production time and price.
-Shipping estimates<sup>4</sup> can vary widely, so be sure to check those. (You'll see these options again during checkout).
-![JLCPCB Home](assets/JLCPCB_Ordering_2.png)
-It's worth noting, the default pcb surface finish contains Lead. For boards in cases, this is usually not a problem. If you're going to rock a naked board, consider going with "lead free" for a few bucks more.
-
-
-`@todo - Site sources?`
-
-![JLCPCB Home](assets/JLCPCB_lead.png)
-The remainder of the checkout process is standard ecommerce stuff. After you pay for your order, it will be reviewed before going into production. They will let you know if the file has any issues.
-
 # Cantor Keyboard
 The Cantor keyboard is a 42 key diodeless split keyboard, designed with simplicity in mind. It is inspired on the popular [corne](https://github.com/foostan/crkbd), [ferris](https://github.com/pierrechevalier83/ferris) and [sweep](https://github.com/davidphilipbarr/Sweep) keyboards, aiming to provide a more ergonomic (stronger column stagger) corne-like layout with a simple, easy to assemble and cheap design.
 
 ![Cantor Keyboard](assets/cantor_keyboard.jpg)
 
-The keyboard uses choc switches with choc spacing. Therefore, only MBK keycaps can be used.
+There are two versions of the Cantor:
+
+The **Cantor Classic** uses choc switches with choc spacing. Therefore, only MBK keycaps can be used.
+
+The **Cantor MX** uses either choc or MX switches with the slightly larger MX spacing. Keycaps for MX stems can be used. (OEM/SA/XDM/Cherry, etc.) 
+
+![Cantor Keyboard](/doc/assets/Comparison_overlay_flattened.svg)
 
 ### Why diodeless?
 
@@ -133,11 +44,11 @@ You can also buy a kit to build the Cantor keyboard from one of the **honorable 
 <a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
 <a href="https://42keebs.eu" target="_blank"><img src="https://user-images.githubusercontent.com/25749629/194108923-33d79eb9-c6da-495b-a60e-fd3f4cd073f4.png" align="left" width="200" ></a>
 <br><br><br><br>
-
+  
 ### Bill of Materials
 
 To build the keyboard, you will need the following materials:
-
+#### Cantor Classic:
 - 2x PCB boards (both are equal since they are reversible)
 - 2x STM32F401CC blackpill microcontrollers (they are cheap on aliexpress)
 - Pins and sockets for the microcontrollers (blackpill needs 20 pin stripes)
@@ -148,9 +59,13 @@ To build the keyboard, you will need the following materials:
 - 1x TRRS cable
 - 1x USB cable compatible with your computer and the blackpill
 
+#### Cantor MX
+- Same as the classic, but switches can be choc v1, choc v2, MX 5 pin, or MX 3pin, and the compatible keycaps for chosen switches.
+
+@todo: Should this be expanded/simplified?
 ### Order the PCB
 
-Download the gerber file from realeses, and submit it to your favorite PCB manufacturer. The keyboard designs have been tested with JLCPCB.
+Download the gerber file from releases, and submit it to your favorite PCB manufacturer. The keyboard designs have been tested with JLCPCB. More details on the ordering process can be found in the [PCB Ordering Guide](doc/pcb_ordering_guide.md).
 
 Note: if you don't want a random tracking number to be printed in the PCB, make sure to select the option 'Remove Order Number' in JLCPCB.
 

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/libraries/kbd_components/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like")(type "Legacy")(uri "${KIPRJMOD}/libraries/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like.lib")(options "")(descr ""))
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/libraries/keebio-components/keebio.lib")(options "")(descr ""))
+)
