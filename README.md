@@ -2,13 +2,20 @@
 
 This is a Cantor variant adjusted to support Cherry MX 3 & 5 pin, Kailh Choc V1 & Kailh CHoc v2 (MX). It uses MX spacing, which makes it unique from other Cantors. Earlier versions of this repo used a complex 9-key footprint. That increased costs and was 'fiddly' - so i broke it out into a seperate repo: [Cantor Master Key](https://github.com/JellyTitan/Cantor-Master-Key)
 
+MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board. 
 
-MX keycaps are slightly larger than Choc V1 caps that are used in the original cantor so the layout has been adjusted accordingly. None of the routing has changed, so any Cantor V1.0 firmware will work with the board. A piezzo buzzer has been added, but that doesn't need to be enabled to work.
+When using full size cherry MX switches, the 5 pin is recommended because the center hole is enlarged to support Kailh Chocs, so the 3 pin full size cherry MX switch will be unstable. It's still workable, but you'll likely have a few tilted keys, or need to create a plate
+
+Minor QOL improvements added:
+* Tenting puck footprint
+* Breakoff pinky column
+* Solder masks have been "poka-yoke" to reduce solder errors.
 ## Version 1.51 **(UNTESTED)** 
 * Added tenting puck footprint
 * Fixed TRRS Silkscreens
 * Increased subtitle font size on front of RH.
-## Version 1.5 **(UNTESTED Prototype ordered May 4th, 2023 )** 
+## Version 1.5 **(~~UNTESTED~~ Tested successfully May 18th 2023.)** 
+* Prototype ordered May 4th, 2023 
 * Note: JLCPCB did not charge extra for breakoff pinky cluster. I think it's more important to keep the pricepoint low than it is to accommodate more exotic switches.
 * Moved the "master key" variant to a separate repo.
 * Swapped in the kbd footprint
@@ -44,7 +51,7 @@ Improved pin hole dimensions for 3 pin cherry MX stability. Moved TRRS jack to a
 
 Todo:
 * Updated the licensing?
-* Update schematic for TX/RX TRRS Crossover.
+* ~~Update schematic for TX/RX TRRS Crossover.~~
 * ~~Should this be updated for the pi2040 (Currently uses blackpill 401).~~ There is already a "Piantor". If this footprint works, make a mash up. 
 * On test print 1.3, red was extra, so i went with blue. Try Elecrow next time?
 * On test print 1.3, 4-6-23, jlcpcb charged an extra $7.50USD for having an abundance of slots. Try elecrow, or reduce slots. Maybe make the blackpill flippable to reduce by 40 apertures? (Pulling red dragon only reduces by 21 slots, since it shares a ground).
