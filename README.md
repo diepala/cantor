@@ -67,6 +67,7 @@ To build the keyboard, you will need the following materials:
 
 Download the gerber file from releases, and submit it to your favorite PCB manufacturer. The keyboard designs have been tested with JLCPCB. More details on the ordering process can be found in the [PCB Ordering Guide](doc/pcb_ordering_guide.md).
 
+
 Note: if you don't want a random tracking number to be printed in the PCB, make sure to select the option 'Remove Order Number' in JLCPCB.
 
 ### How to Build
