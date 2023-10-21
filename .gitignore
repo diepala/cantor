@@ -25,5 +25,6 @@ fp-info-cache
 *.xml
 *.csv
 
-# Cantor MX backups (auto-created by KiCad)
+# Cantor backups (auto-created by KiCad)
 Cantor_MX/Cantor_MX-backups/
+Cantor_Classic/keyboard_pcb-backups/
