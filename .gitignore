@@ -24,3 +24,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Backups
+Cantor_MX/Cantor_MX-backups/
