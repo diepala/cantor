@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -24,8 +24,8 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": true,
-      "vias": false,
+      "tracks": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -63,7 +63,7 @@
       35,
       36
     ],
-    "visible_layers": "80bdfff_7fffffff",
+    "visible_layers": "80bdfff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
