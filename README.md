@@ -1,13 +1,4 @@
 # Cantor Keyboard
-## Note! A PR for this variant has been submitted from the cantor_mx branch 5-19-23.
-
- @todo: 
- * Update build guide for breakoff pinky column.
- * Credit footprints
- * Take 'hero' images
- * Added clickable TOC
- * Update Releases section.
- 
 The Cantor keyboard is a 42 key diodeless split keyboard, designed with simplicity in mind. It is inspired on the popular [corne](https://github.com/foostan/crkbd), [ferris](https://github.com/pierrechevalier83/ferris) and [sweep](https://github.com/davidphilipbarr/Sweep) keyboards, aiming to provide a more ergonomic (stronger column stagger) corne-like layout with a simple, easy to assemble and cheap design.
 
 ![Cantor Keyboard](assets/cantor_keyboard.jpg)
