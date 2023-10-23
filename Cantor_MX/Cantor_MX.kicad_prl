@@ -24,8 +24,8 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": false,
-      "vias": true,
+      "tracks": true,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
