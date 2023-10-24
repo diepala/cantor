@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.5-0"
     },
-    "CreationDate": "2023-10-23T15:51:27-07:00"
+    "CreationDate": "2023-10-24T16:12:26-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Cantor_MX",
       "GUID": "43616e74-6f72-45f4-9d58-2e6b69636164",
-      "Revision": "rev1.0"
+      "Revision": "rev1.6"
     },
     "Size": {
       "X": 142.9566,
@@ -90,24 +90,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
