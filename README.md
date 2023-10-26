@@ -7,7 +7,7 @@ There are two versions of the Cantor:
 
 The **Cantor Classic** uses choc switches with choc spacing. Therefore, only MBK keycaps can be used.
 
-The **Cantor MX** uses either choc or MX switches with the slightly larger MX spacing. Keycaps for MX stems can be used. (OEM/SA/XDM/Cherry, etc.) 
+The **Cantor MX** uses either choc V1, choc V2, or MX switches with the slightly larger MX spacing. Keycaps for MX stems can be used. (OEM/SA/XDM/Cherry, etc.) 
 
 ![Cantor Keyboard](/doc/assets/Comparison_overlay_flattened.svg)
 
@@ -60,9 +60,11 @@ To build the keyboard, you will need the following materials:
 - 1x USB cable compatible with your computer and the blackpill
 
 #### Cantor MX
-- Same as the classic, but switches can be choc v1, choc v2, MX 5 pin, or MX 3pin, and the compatible keycaps for chosen switches.
+- Same as the classic, but switches can be choc v1, choc v2, MX 5 pin, or MX 3pin, and the compatible keycaps for chosen switches. MX 5 pin are preferable to 3 pin because they have more points of contact with the PCB.
 
-@todo: Should this be expanded/simplified?
+- Cantor MX has slots for optional 'Tenting pucks'. They can be [purchased](https://splitkb.com/products/tenting-puck) or [3d printed](https://www.printables.com/model/235433-tenting-puck-for-keyboard-tripod-mount).
+
+
 ### Order the PCB
 
 Download the gerber file from releases, and submit it to your favorite PCB manufacturer. The keyboard designs have been tested with JLCPCB. More details on the ordering process can be found in the [PCB Ordering Guide](doc/pcb_ordering_guide.md).
@@ -102,7 +104,7 @@ GitHub: [Here](https://github.com/sponsors/diepala)
 ### Honorable sponsors
 
 
-Thank you very much to everyone contributing and/or sonponsoring this project. Special thanks to the honorable sponsors:
+Thank you very much to everyone contributing and/or sponsoring this project. Special thanks to the honorable sponsors:
 
 <a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
 <a href="https://42keebs.eu" target="_blank"><img src="https://user-images.githubusercontent.com/25749629/194108923-33d79eb9-c6da-495b-a60e-fd3f4cd073f4.png" align="left" width="200" ></a>
