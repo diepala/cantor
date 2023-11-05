@@ -24,3 +24,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Cantor backups (auto-created by KiCad)
+Cantor_MX/Cantor_MX-backups/
+Cantor_Classic/keyboard_pcb-backups/

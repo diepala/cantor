@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kbd_footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/kbd_footprints.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/Kicad-STM32/Footprints")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/libraries/keyswitches.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "Cantor_MX")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cantor_MX/Cantor_MX.pretty")(options "")(descr ""))
+)
