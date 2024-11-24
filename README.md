@@ -78,7 +78,7 @@ To build the keyboard, you'll also need a soldering iron and some tin. Follow th
 
 ### Firmware
 
-The Cantor keyboard uses the QMK firmware. Firmware for this keyboard is coming soon to the main QMK repository with [this PR](https://github.com/qmk/qmk_firmware/pull/16552).
+The Cantor keyboard uses the QMK firmware, which already supports this keyboard.
 
 To flash the firmware to the microcontroller connect the blackpill to your computer and set it to bootloader mode. To do this the first time:
 
